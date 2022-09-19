@@ -10,7 +10,7 @@
   position: relative;
   margin:auto;
   width: 383px;
-  height: 370px;
+  height: 400px;
   background: #FAFAFA;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -89,8 +89,9 @@ color: #1E1E1E;
   flex-direction: column;
 
 }
-.col > p {
-  line-height: 3em;
+.col > p, .coin > p {
+
+  line-height: 2.5em;
   text-align: left;
   display: table-cell;
   height: 32px;
@@ -99,13 +100,34 @@ color: #1E1E1E;
 font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 600;
-margin: auto;
+margin: 2px auto;
 }
 
+.coin {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
 
+.logo{
+  margin: 8px;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+#coin {
+  margin: auto;
+  text-align: left;
+}
+.positive {
+  color:#61BF1E !important 
+}
+.negative {
+  color:  #FF492D !important;
+}
 #col-1 {
   top: 64px;
-  left: 18px;
+  left: 8px;
 }
 
 #col-2 {
@@ -124,3 +146,18 @@ margin: auto;
   top: 64px;
   left: 308px;
 }
+
+/* color: #61BF1E;
+ */
+
+ /* color: #FF492D;
+ */
+
+
+ /* position: absolute;
+width: 353px;
+height: 0px;
+
+/* Dark (Opacity 8%) */
+
+/* border: 1px solid rgba(30, 30, 30, 0.08); */ 

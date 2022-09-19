@@ -111,8 +111,10 @@ function App() {
           <div id='col-1' className="col">
             {currecncies.map(coin =>
               <>
-              <p id='coin'>{coin}</p>
-              <div id='line'></div>
+              <div className={`coin `+ coin}>
+                <img className='logo' src={`/`+ coin +`.png`}></img>
+                <p id='coin'>{coin}</p>
+              </div>
               </>
             )}
           </div>
@@ -120,28 +122,33 @@ function App() {
             {prices_array.map(x =>
               <>
               <p>{Number(x).toFixed(2)}</p>
-              {/* <div id='line' className={`row${x}`}></div> */}
               </>
             )}
           </div>
           <div id='col-3' className="col">
             {percent_array.map(x =>
+              Number(x) >= 0 ?
               <>
-              <p>{Number(x).toFixed(2)}%</p>
-              {/* <div id='line' className={`row${x}`}></div> */}
+              <p className="positive">{Number(x).toFixed(2)}%</p>
               </>
+              :
+              <>
+              <p className="negative">{Number(x).toFixed(2)}%</p>
+              </>
+
+
             )}
           </div>
           <div id='col-4' className="col">
-            <p>3.02%</p>
-            <p>3.02%</p>
-            <p>3.02%</p>
-            <p>3.02%</p>
-            <p>3.02%</p>
-            <p>3.02%</p>
-            <p>3.02%</p>
-            <p>3.02%</p>
-            <p>3.02%</p>
+            <p className="positive">3.02%</p>
+            <p className="positive">3.02%</p>
+            <p className="positive">3.02%</p>
+            <p className="positive">3.02%</p>
+            <p className="positive">3.02%</p>
+            <p className="negative">-3.02%</p>
+            <p className="negative">-3.02%</p>
+            <p className="negative">-3.02%</p>
+            <p className="negative">-3.02%</p>
 
 
           </div>
