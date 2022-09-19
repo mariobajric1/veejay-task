@@ -127,7 +127,7 @@ function App() {
           <div id='col-3' className="col">
             {percent_array.map(x =>
               <>
-              <p>{x}</p>
+              <p>{Number(x).toFixed(2)}%</p>
               {/* <div id='line' className={`row${x}`}></div> */}
               </>
             )}

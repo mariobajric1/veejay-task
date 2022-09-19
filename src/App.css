@@ -46,7 +46,7 @@ color: #1E1E1E;
 
 #table_header > p {
   position: absolute;
-  text-align: left;
+  text-align: center;
   font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 600;
@@ -110,17 +110,17 @@ margin: auto;
 
 #col-2 {
   top: 64px;
-  left: 113px;
+  left: 105px;
 }
 #col-3 {
   top: 64px;
-  left: 191px
+  left: 185px
 }
 #col-4 {
   top: 64px;
-  left: 254px
+  left: 250px
 }
 #col-5 {
   top: 64px;
-  left: 306px;
+  left: 308px;
 }
