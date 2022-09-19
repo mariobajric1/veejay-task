@@ -147,6 +147,78 @@ margin: 2px auto;
   left: 308px;
 }
 
+
+.line_segment {
+  position: absolute;
+
+width: 356px;
+height: 0px;
+
+/* Dark (Opacity 8%) */
+
+border-bottom: 1px solid rgba(30, 30, 30, 0.08);
+}
+
+#line-1 {
+  top: 100px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+}
+
+#line-2 {
+  top: 136px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+}#line-3 {
+  top: 172px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+}#line-4 {
+  top: 208px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+}#line-5 {
+  top: 244px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+}#line-6 {
+  top: 280px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+}#line-7 {
+  top: 316px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+}
+#line-8 {
+  top: 352px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+}
 /* color: #61BF1E;
  */
 

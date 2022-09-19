@@ -106,6 +106,14 @@ function App() {
             <p id='mktcap'>Mrkt Cap</p>
           </div>
 
+          <div id='line-1'className='line_segment'></div>
+      <div id='line-2' className='line_segment'></div>
+      <div id='line-3' className='line_segment'></div>
+      <div id='line-4' className='line_segment'></div>
+      <div id='line-5' className='line_segment'></div>
+      <div id='line-6' className='line_segment'></div>
+      <div id='line-7' className='line_segment'></div>
+      <div id='line-8'className='line_segment'></div>
         
 
           <div id='col-1' className="col">
@@ -174,7 +182,8 @@ function App() {
 
 
       </div>
-      <div></div>
+      
+
     </div>
   );
 }
