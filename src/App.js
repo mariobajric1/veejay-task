@@ -112,7 +112,7 @@ function App() {
             {currecncies.map(coin =>
               <>
               <div className={`coin `+ coin}>
-                <img className='logo' src={`/`+ coin +`.png`}></img>
+                <img className='logo' src={`/`+ coin.toLowerCase() +`.png`}></img>
                 <p id='coin'>{coin}</p>
               </div>
               </>
